@@ -10,7 +10,8 @@ namespace ArrayProcessor
             
             Console.WriteLine(arrayProcessor.GetArray);
             Console.WriteLine(arrayProcessor.GetLength);
-            
+
+            arrayProcessor.DisplayArray();
         }
     }
 }

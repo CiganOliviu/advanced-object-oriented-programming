@@ -10,6 +10,12 @@ namespace Shapes
 
             Console.WriteLine(rectangle.GetArea());
             rectangle.DisplayDimensions();
+
+            var circle = new Circle(5);
+            Console.WriteLine(circle.GetArea());
+            circle.DisplayDimensions();
+            
+            Console.WriteLine(circle.GetRadius());
         }
     }
 }

@@ -20,7 +20,7 @@ namespace Shapes
 
         public void DisplayDimensions()
         {
-            Console.Write(_length + " " + _width);
+            Console.WriteLine(_length + " " + _width);
         }
     }
 }
